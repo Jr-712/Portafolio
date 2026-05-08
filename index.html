@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="galaxy"></div>
+
+    <!-- Nombre y título -->
+    <!-- Barra de tarea de la parte superior del codigo -->
+    <header class="main-header">
+        <div class="logo">
+            <span class="logo-text">Jr</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <!-- Añade IDs a las secciones correspondientes -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="slide-in-right reveal">Matemático</h1>
+            <h2 class="slide-in-right reveal">& Analista de Datos</h2>
+            <p>
+                Transformo datos en decisiones estratégicas mediante análisis estadístico,
+                visualización interactiva y modelado predictivo para optimizar procesos y apoyar la toma de decisiones.
+            </p>
+
+            <!-- Lenguajes / herramientas -->
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>MySQL</span>
+                <span>Power BI</span>
+                <span>Excel</span>
+            </div>
+
+            <!-- Botones -->
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn-hero">Ver Proyectos</a>
+                <a href="#contact" class="btn-hero">Contacto</a>
+            </div>
+
+
+            <!-- Icono de GitHub -->
+            <div class="hero-github">
+                <a href="https://github.com/Jr-712" target="_blank" title="GitHub">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+                </a>
+            </div>
+        </div>
+
+        <!-- Imagen isométrica -->
+        <div class="hero-image reveal">
+            <img src="assets.gif" alt="Analista de datos">
+        </div>
+    </section>
+
+
+    <!-- Descripción personal -->
+    <section id="about" class="about-section">
+        <!-- Encabezado centrado -->
+        <div class="about-headline">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-subtitle">Transforming data into strategic decisions</p>
+        </div>
+
+        <!-- Columna izquierda -->
+        <div class="about-content">
+            <h3 class="about-intro">Hello, I'm <span>Armando</span></h3>
+            <p class="about-text">
+                Soy matemático y analista de datos con experiencia en modelado predictivo,
+                análisis estadístico y visualización interactiva. Me apasiona transformar
+                información compleja en soluciones claras que impulsen la toma de decisiones.
+            </p>
+
+            <div class="about-buttons">
+                <a href="CV-Armando.pdf" class="btn-about" download>Download CV</a>
+                <a href="#portfolio" class="btn-about btn-secondary">View Projects</a>
+            </div>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="about-image">
+            <div class="avatar-glow">
+                <img src="tu-foto.jpg" alt="Foto de Armando">
+            </div>
+        </div>
+
+        <!-- Stats a lo ancho -->
+        <div class="about-stats">
+            <div class="stat-card">
+                <span class="stat-number">2</span>
+                <p class="stat-label">Total Projects</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">11</span>
+                <p class="stat-label">Certificates</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">6</span>
+                <p class="stat-label">Months of Experience</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Carrusel de proyectos -->
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio-section">
+        <h2 class="portfolio-title">Portfolio Showcase</h2>
+        <p class="portfolio-subtitle">
+            Explore my journey through projects, certifications, and technical expertise.
+            Each section represents a milestone in my continuous learning path.
+        </p>
+
+        <!-- Tabs -->
+        <div class="portfolio-tabs">
+            <button class="tab-btn active" data-tab="projects">Projects</button>
+            <button class="tab-btn" data-tab="certificates">Certificates</button>
+            <button class="tab-btn" data-tab="tech">Tech Stack</button>
+        </div>
+
+         
+
+        <div class="tab-content active" id="projects">
+
+            <div class="projects-container">
+
+                <!-- PROYECTO 1 -->
+                <a href="project-tlaxcala.html" class="project-link">
+
+                    <div class="project-card-modern">
+
+                        <!-- Imagen -->
+                        <div class="project-image">
+                            <img src="Presentación.jpg" alt="Proyecto Tlaxcala">
+                        </div>
+
+                        <!-- Información -->
+                        <div class="project-content">
+
+                            <h3>Análisis sociodemográfico y económico de Tlaxcala</h3>
+
+                            <p>
+                                Visualización y análisis georreferenciado para identificar patrones
+                                económicos, poblacionales y sociales.
+                            </p>
+
+                            
+
+                            <!-- Botón -->
+                            <div class="project-footer">
+                                <span>Ver proyecto →</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+
+                <!-- PROYECTO 2 -->
+                <a href="project-llantas.html" class="project-link">
+
+                    <div class="project-card-modern">
+
+                        <!-- Imagen -->
+                        <div class="project-image">
+                            <img src="COMBI.jpg" alt="Proyecto Tlaxcala">
+                        </div>
+
+                        <!-- Información -->
+                        <div class="project-content">
+
+                            <h3>Análisis de rendimientos de neumaticos</h3>
+
+                            <p>
+                                Análisis del rendimiento de neumaticos por marca para
+                                una empresa de transporte.
+                            </p>
+
+                            
+                            <!-- Botón -->
+                            <div class="project-footer">
+                                <span>Ver proyecto →</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+
+                
+            </div>
+
+        </div>
+
+        <!-- Certificates -->
+        <div class="tab-content" id="certificates">
+            <div class="portfolio-grid">
+
+                <div class="portfolio-card certificate-card" data-cert="cert1">
+                    <img src="Coursera 11.jpg" alt="Certificado Python">
+                    <h4>Data, Data, Everywhere</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert2">
+                    <img src="Coursera 12.jpg" alt="Certificado Python">
+                    <h4>Ask Questions to Make Data-Driven Decisions</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert3">
+                    <img src="Coursera 13.jpg" alt="Certificado Python">
+                    <h4>Prepare Data for Exploration</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert4">
+                    <img src="Coursera 14.jpg" alt="Certificado Python">
+                    <h4>Process Data from Dirty to Clean</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert5">
+                    <img src="Coursera 15.jpg" alt="Certificado Python">
+                    <h4>Analyze Data to Answer Questions</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert6">
+                    <img src="Coursera 16.jpg" alt="Certificado Python">
+                    <h4>Share Data Through the Art of Visualization</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert7">
+                    <img src="Coursera 17.jpg" alt="Certificado Python">
+                    <h4>Data Analysis with R Programming</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+
+                <div class="portfolio-card certificate-card" data-cert="cert8">
+                    <img src="Coursera 18.jpg" alt="Certificado Python">
+                    <h4>Google Data Analytics</h4>
+                    <p class="cert-org">Coursera</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+                <div class="portfolio-card certificate-card" data-cert="cert9">
+                    <img src="INEGI-QGIS.jpg" alt="Certificado Python">
+                    <h4>QGIS</h4>
+                    <p class="cert-org">INEGI</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+                <div class="portfolio-card certificate-card" data-cert="cert10">
+                    <img src="INEGI-DENUE.jpg" alt="Certificado Python">
+                    <h4>DENUE</h4>
+                    <p class="cert-org">INEGI</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+                <div class="portfolio-card certificate-card" data-cert="cert11">
+                    <img src="INEGI-MAPA.jpg" alt="Certificado Python">
+                    <h4>Mapa Digital</h4>
+                    <p class="cert-org">INEGI</p>
+                    <p class="view-more">Ver certificado</p>
+                </div>
+
+                
+
+                <div class="modal" id="cert-modal">
+                    <div class="modal-content" style="max-width: 800px;">
+                        <span class="close-btn">&times;</span>
+
+                        <img id="cert-image" src="" alt="Certificado">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- Tech Stack -->
+        <div class="tab-content" id="tech">
+            <div class="portfolio-grid">
+                <div class="portfolio-card"><img src="mysql-logo.png" alt="MySQL">
+                    <h4>MySQL</h4>
+                </div>
+                <div class="portfolio-card"><img src="python-logo.png" alt="Python">
+                    <h4>Python</h4>
+                </div>
+                <div class="portfolio-card"><img src="excell-logo.jpg" alt="Excel">
+                    <h4>Excel</h4>
+                </div>
+                <div class="portfolio-card"><img src="power-bi-logo.jpg" alt="Power BI">
+                    <h4>Power BI</h4>
+                </div>
+                <div class="portfolio-card"><img src="r-logo.jpg" alt="Power BI">
+                    <h4>R</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contacto con íconos -->
+    <section id="contact" class="contacto">
+        <a href="https://github.com/Jr-712" target="_blank" title="GitHub: https://github.com/Jr-712">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+        </a>
+        <a href="mailto:armandomaza712@gmail.com" title="Correo: armandomaza712@gmail.com">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Correo">
+        </a>
+    </section>
+
+
+    <!-- Parte de contacto de la barra inferior de la pagina-->
+    <footer>
+        <p>Telefono: 2461153827</p>
+        <p>Correo: armandomaza712@gmail.com</p>
+        <p>© 2025 Armando - Matemático & Data Scientist</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
